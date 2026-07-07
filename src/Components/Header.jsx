@@ -30,7 +30,7 @@ function Header() {
 
       <h2>Java Full Stack Developer</h2>
 
-      <p> Welcome to my portfolio website.</p>
+      <p> Welcome to my portfolio website</p>
       <p> Passionate Java Full Stack Developer with a strong interest in creating modern web applications and continuously learning new technologies.</p>
     </section>
   );
