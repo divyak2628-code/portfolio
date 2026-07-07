@@ -1,33 +1,39 @@
+import { useState } from "react";
 import "./Header.css";
-import profile from "../assets/profile.jpg";
 
-function Hero() {
+import profile1 from "../assets/profile1.jpg";
+import profile2 from "../assets/profile2.jpg";
+
+function Header() {
+
+  const [image, setImage] = useState(profile1);
+
+  function changeImage() {
+    if (image === profile1) {
+      setImage(profile2);
+    } else {
+      setImage(profile1);
+    }
+  }
+
   return (
-    <section className="hero" id="home">
+    <section className="header" id="home">
 
-      <div className="hero-content">
+      <img
+        src={image}
+        alt="Profile"
+        className="profile"
+        onClick={changeImage}
+      />
 
-        <h3>Hello, I'm</h3>
+      <h1>Hello, I'm Divya</h1>
 
-        <h1>Divya</h1>
+      <h2>Java Full Stack Developer</h2>
 
-        <h2>Java Full Stack Developer</h2>
-
-        <p>
-          I am a Computer Science Engineering student.
-          I enjoy creating simple and beautiful websites
-          using React.
-        </p>
-
-
-      </div>
-
-      <div className="hero-image">
-        <img src={profile} alt="Profile" />
-      </div>
-
+      <p> Welcome to my portfolio website.</p>
+      <p> Passionate Java Full Stack Developer with a strong interest in creating modern web applications and continuously learning new technologies.</p>
     </section>
   );
 }
 
-export default Hero;
+export default Header;
