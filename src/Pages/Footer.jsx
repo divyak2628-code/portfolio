@@ -6,12 +6,10 @@ function Footer() {
 
       <h2>Divya</h2>
 
-      <p>
-        Thank you for visiting my portfolio website.
-      </p>
+      <p> Thank you for visiting my portfolio website. </p>
 
       <p className="copyright">
-        © 2026 Divya | All Rights Reserved.
+        © 2026 Divya
       </p>
 
     </footer>

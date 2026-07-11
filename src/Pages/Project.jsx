@@ -2,7 +2,7 @@ import "./Project.css";
 
 function Projects() {
   return (
-    <section className="projects" id="projects">
+    <section className="projects">
 
       <h2>My Projects</h2>
 
@@ -13,32 +13,25 @@ function Projects() {
       <div className="project-container">
 
         <div className="project-card">
-          <h3>Perfume Website</h3>
+          <h3>Job Portal</h3>
 
-          <p>
-            A simple perfume website created using HTML, CSS and JavaScript.
-          </p>
+  <p> A Job Portal application developed using React, Spring Boot, and MySQL with user authentication, job posting, and job application features. </p>
 
-          <button>View Project</button>
-        </div>
+  <button>View Project</button>
+</div>
 
         <div className="project-card">
           <h3>Portfolio Website</h3>
 
-          <p>
-            A personal portfolio developed using React and CSS.
-          </p>
+          <p> A personal portfolio developed using HTML , CSS ,JavaScript and React. </p>
 
           <button>View Project</button>
         </div>
 
         <div className="project-card">
-          <h3>Student Management</h3>
+          <h3>TO-DO-LIST</h3>
 
-          <p>
-            A basic Java project with MySQL database.
-          </p>
-
+          <p> A simple To-Do List application built using HTML, CSS, JavaScript, and React. It allows users to add, edit, delete, and mark tasks as completed. </p>
           <button>View Project</button>
         </div>
 

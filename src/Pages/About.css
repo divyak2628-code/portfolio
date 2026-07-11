@@ -1,12 +1,12 @@
 .about{
     padding:80px;
-    background:#ffffff;
+    background:rgb(255, 255, 255);
     text-align:center;
 }
 
 .about h2{
     font-size:38px;
-    color:#2563eb;
+    color:rgb(37, 99, 235);
     margin-bottom:20px;
 }
 
@@ -15,7 +15,7 @@
     margin:auto;
     font-size:17px;
     line-height:1.8;
-    color:#555;
+    color:rgb(85, 85, 85);
     margin-bottom:40px;
 }
 
@@ -27,10 +27,10 @@
 
 .about-card{
     width:220px;
-    background:#f8fafc;
+    background:rgb(248, 250, 252);
     padding:25px;
     border-radius:12px;
-    box-shadow:0 5px 10px rgba(0,0,0,.1);
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
     transition:.3s;
 }
 
@@ -39,10 +39,10 @@
 }
 
 .about-card h3{
-    color:#2563eb;
+    color:rgb(37, 99, 235);
     margin-bottom:10px;
 }
 
 .about-card p{
-    color:#555;
+    color:rgb(85, 85, 85);
 }

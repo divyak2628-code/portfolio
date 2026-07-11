@@ -1,17 +1,17 @@
 .contact{
     padding:80px;
-    background:#f8fafc;
+    background:rgb(248, 250, 252);
     text-align:center;
 }
 
 .contact h2{
     font-size:38px;
-    color:#2563eb;
+    color:rgb(37, 99, 235);
     margin-bottom:15px;
 }
 
 .contact-text{
-    color:#555;
+    color:rgb(85, 85, 85);
     font-size:17px;
     margin-bottom:35px;
 }
@@ -26,7 +26,7 @@
     width:100%;
     padding:15px;
     margin-bottom:20px;
-    border:1px solid #ccc;
+    border:1px solid rgb(204, 204, 204);
     border-radius:8px;
     font-size:16px;
     outline:none;
@@ -40,13 +40,13 @@
     width:100%;
     padding:14px;
     border:none;
-    background:#2563eb;
-    color:white;
+    background:rgb(37, 99, 235);
+    color:rgb(255, 255, 255);
     border-radius:8px;
     font-size:17px;
     cursor:pointer;
 }
 
 .contact-form button:hover{
-    background:#1d4ed8;
+    background:rgb(29, 78, 216);
 }

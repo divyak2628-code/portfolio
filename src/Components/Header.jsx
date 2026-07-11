@@ -17,7 +17,7 @@ function Header() {
   }
 
   return (
-    <section className="header" id="home">
+    <section className="header">
 
       <img
         src={image}

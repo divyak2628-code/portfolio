@@ -8,13 +8,13 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:#ffffff;
+    background:rgb(255, 255, 255);
     padding:20px 80px;
     box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
 
 .logo{
-    color:#2563eb;
+    color:rgb(37, 99, 235);
     font-size:30px;
     font-weight:bold;
 }
@@ -27,11 +27,11 @@
 
 .nav-links a{
     text-decoration:none;
-    color:#333;
+    color:rgb(51, 51, 51);
     font-size:18px;
     transition:.3s;
 }
 
 .nav-links a:hover{
-    color:#2563eb;
+    color: rgb(37, 99, 235);
 }
